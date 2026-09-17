@@ -7,13 +7,13 @@ Delete this file when done.
 ```sh
 rm -rf R DESCRIPTION tests/testthat crates Cargo.toml          # not R or Rust
 rm -rf src steps tests/test_*.py pyproject.toml                # not Python
-rm -rf docs config .pre-commit-config.yaml .github/dependabot.yml   # if unused
+rm -rf doc config .pre-commit-config.yaml .github/dependabot.yml   # if unused
 rm CONVENTIONS.md CONTRIBUTING.md                              # if you won't follow them
 ```
 
 Keep `.gitignore`, `LICENSE`, and - if the repo will ever go public - `scripts/`.
 
-**2. Replace the README.** `mv docs/README_SKELETON.md README.md && rm SETUP.md`
+**2. Replace the README.** `mv doc/README_SKELETON.md README.md && rm SETUP.md`
 
 **3. Set your git identity here.** The one step everyone should do - it prevents agents committing as themselves and humans committing under an email GitHub can't link.
 

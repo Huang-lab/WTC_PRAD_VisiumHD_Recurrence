@@ -24,7 +24,7 @@ python steps/01_cohort.py --config config/example.yaml
 src/        tested primitives
 steps/      numbered drivers (run order = filename)
 tests/      unit tests
-docs/       DESIGN_DECISIONS.md (why), PSEUDOCODE.md (how)
+doc/        DESIGN_DECISIONS.md (why), PSEUDOCODE.md (how)
 results/    frozen, dated outputs only
 ```
 
