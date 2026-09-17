@@ -15,7 +15,7 @@ Each piece exists because a repo needed it patched in by hand later ([2026-08-13
 | it's a pipeline | `src/` `steps/` `tests/` (Python), `R/`, `crates/` (Rust) - one passing test each |
 | it touches participant data | [data/README.md](./data/README.md) |
 | it produces committed outputs | [results/README.md](./results/README.md) |
-| the reasoning matters more than the code | [docs/](./docs) - DD-numbered decisions, pseudocode |
+| the reasoning matters more than the code | [doc/](./doc) - DD-numbered decisions, pseudocode |
 | you want them | [CONVENTIONS.md](./CONVENTIONS.md), PR/issue templates, dependabot, pre-commit, `CITATION.cff` |
 
 ## Naming
